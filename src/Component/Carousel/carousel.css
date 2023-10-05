@@ -1,0 +1,17 @@
+.categories__grid {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 25px; /* Adjust the gap between items */
+  justify-content: center; /* Center items horizontally */
+  }
+  
+  .categories__item {
+    flex: 1;
+    max-width: calc(20.33% - 20px); /* Adjust the width of each item */
+    text-align: center;
+  }
+  
+  .categories__item img {
+    max-width: 100%;
+  }
+  
